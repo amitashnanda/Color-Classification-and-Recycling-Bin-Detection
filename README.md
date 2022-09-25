@@ -57,8 +57,14 @@ For bin detection
 python test_bin_detector.py
 ```
 ## Results
+We implemented our model on classifying the blue pictures on the validation dataset with an accuracy of 100 % (precision = 1). While on the unknown images we obtained a score of 9.934/10. </br>
+On successful implementation of our model on bin detection for the ten validation datasets, we get an accuracy of 90%. While tested on the unknown images gives a score of 7.18/10. The inaccuracy on the unknown images can be attributed to the cases where some images may contain blue colour bin like object but not exactly the blue bin region. So, this may be too big as we did not set any bounding box on the maximum area of the bounding box.
+
 <!-- ![Alt text](https://github.com/[amitashnanda]/[Color-Classification-and-Recycling-Bin-Detection]/blob/[results]/Figure_1a.png?raw=true)
 ![Alt text](https://github.com/[amitashnanda]/[Color-Classification-and-Recycling-Bin-Detection]/blob/[results]/Figure_1.png?raw=true) -->
-![Result](/results/Figure_1a.png)
+![Boundary Box](/results/Figure_1a.png)
+![Bin detection](/results/Figure_1.png)
+
+
 
 

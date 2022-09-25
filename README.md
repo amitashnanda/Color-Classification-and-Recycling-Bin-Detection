@@ -69,9 +69,9 @@ We implemented our model on classifying the blue pictures on the validation data
 ![Boundary Box](/results/Figure_1a.png)
 ![Bin detection](/results/Figure_1.png)
 ![Boundary Box](/results/Figure_2a.png)
-![Bin detection](/results/Figure_2a.png)
+![Bin detection](/results/Figure_2.png)
 ![Boundary Box](/results/Figure_3a.png)
-![Bin detection](/results/Figure_3a.png)
+![Bin detection](/results/Figure_3.png)
 ![Boundary Box](/results/Figure_4a.png)
 ![Bin detection](/results/Figure_4.png)
 

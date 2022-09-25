@@ -1,7 +1,7 @@
 # Color-Classification-and-Recycling-Bin-Detection
 
 ## Introduction
-<p align = "center">
+<p align = "justify">
 This repository shows the developmenet of a color classification model and drawing the concept from later to detect recycle bins using Gaussian Discriminant Analysis. Data is essential while dealing with any Machine Learning approach and concepts. One of the crucial aspects of
 data is color. It is an important characteristic of an object because of its significant influence on value. Hence, getting the color parameter into consideration is an utmost priority while dealing with classification models.
 </p>
@@ -37,7 +37,7 @@ Color-Classification-and-Recycling-Bin-Detection
 |
 └───docs 
 └───results
-│
+
 ```
 
 ## Prerequisites
@@ -59,7 +59,7 @@ For bin detection
 python test_bin_detector.py
 ```
 ## Results
-<p align = "center">
+<p align = "justify">
 We implemented our model on classifying the blue pictures on the validation dataset with an accuracy of 100 % (precision = 1). While on the unknown images we obtained a score of 9.934/10. On successful implementation of our model on bin detection for the ten validation datasets, we get an accuracy of 90%. While tested on the unknown images gives a score of 7.18/10. The inaccuracy on the unknown images can be attributed to the cases where some images may contain blue colour bin like object but not exactly the blue bin region. So, this may be too big as we did not set any bounding box on the maximum area of the bounding box.
 </p>
   
